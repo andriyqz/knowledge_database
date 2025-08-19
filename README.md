@@ -1,3 +1,1 @@
 # knowledge_database
-
-lalala
