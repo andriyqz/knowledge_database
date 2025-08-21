@@ -10,3 +10,13 @@ $$A = P * (1 + \frac{r}{n})^{nt}$$
 
 Якщо у нас неперервне нарахування:
 $$A = P * e^{rt}$$
+
+```python
+from sympy import *
+
+x = symbols("x")
+
+function = (1 + 1/x)**x
+
+print(limit(function, x, oo)) # E (2.718281828...)
+```
