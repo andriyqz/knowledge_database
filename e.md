@@ -1,0 +1,1 @@
+- $\lim_{x \to \infty}(1 + \frac{x}{n})^n = e^x$
